@@ -1,0 +1,344 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="address_details" language="java" columnCount="1" pageWidth="531" pageHeight="842" columnWidth="531" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d5327dd4-cbca-4f26-90a4-e6da3c54e407">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="276" splitType="Stretch">
+			<element kind="frame" uuid="8ac3ae6a-2846-474e-9e93-2a1de8d4782b" x="0" y="0" width="531" height="242" removeLineWhenBlank="true">
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.element.name" value="addrs"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<element kind="frame" uuid="dbfbf56c-621d-4f27-94ea-c548e0e4ecd0" x="0" y="0" width="140" height="12">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="frame" uuid="8eb7eea4-a830-4142-acc1-172328cb42c1" x="0" y="0" width="12" height="12">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="image" uuid="4f9aefd4-88ef-475f-97d8-85302c763394" x="1" y="1" width="10" height="10" hImageAlign="Center" vImageAlign="Middle">
+							<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/address-icon-blue.svg"]]></expression>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						</element>
+					</element>
+					<element kind="textField" uuid="25a57212-3ee1-41b9-929c-d6985ba90eb9" x="16" y="3" width="110" height="8" forecolor="#004364" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+						<expression><![CDATA["ADDRESS DETAILS"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+				</element>
+				<element kind="frame" uuid="a6da25a9-05b0-4617-827d-3493fbb63951" x="0" y="65" width="531" height="176" removeLineWhenBlank="true">
+					<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.element.name" value="add main"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="frame" uuid="8b88ca29-3ec0-43ed-b83d-2bef2d2356e5" stretchType="NoStretch" x="0" y="0" width="531" height="80">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.element.name" value="add row1"/>
+						<element kind="frame" uuid="fef3754d-b51a-4303-bc24-77342f5fd8ef" positionType="Float" x="0" y="0" width="250" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.layout"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<element kind="textField" uuid="d0917436-0ea3-48a0-960c-e598c6422e76" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+								<expression><![CDATA["Permanent Address"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="dc396fcb-c6bd-4589-b8c6-30c156f2d9aa" positionType="Float" stretchType="ElementGroupHeight" x="0" y="16" width="250" height="24" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Justified" vTextAlign="Middle">
+								<paragraph lineSpacing="Fixed" lineSpacingSize="9.0"/>
+								<expression><![CDATA["1st Floor, Panjim Convention Center, Vistar Estates, Mala, Rua de Ourém, Neugi Nagar, Panaji, Goa 403001"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+								<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+							</element>
+							<element kind="staticText" uuid="bc291836-92ca-4afd-b419-4110fd701abb" x="0" y="68" width="140" height="12" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Date Reported]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="3d69d169-bc37-4ebf-b5ee-88e702b9c0c6" x="148" y="52" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["-"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="textField" uuid="4e83ff96-a157-423c-bd83-c0228ca26c40" x="148" y="68" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["11/02/2021"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="staticText" uuid="4eff56a5-b45f-4bb2-bc1b-26aaa691a221" x="0" y="52" width="140" height="12" forecolor="#000000" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Residence Code]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="90cde11d-68e6-4379-9c8c-87f444759c61" x="261" y="0" width="8" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="line" uuid="8b0850a2-70a4-49ea-a166-76ee4f50eab2" mode="Opaque" x="1" y="0" width="1" height="80" forecolor="#D9D9D9" backcolor="#D9D9D9">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<box leftPadding="3" rightPadding="3"/>
+						</element>
+						<element kind="frame" uuid="0b5829a1-8010-4c16-9c33-ab6ef524c773" positionType="Float" x="281" y="0" width="250" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.layout"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="textField" uuid="4625bf6b-c097-49d4-9a7d-3cfeed986dd7" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+								<expression><![CDATA["Permanent Address"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="daffe9b1-26ef-4bf2-a192-d5683279a806" positionType="Float" stretchType="ElementGroupHeight" x="0" y="16" width="250" height="24" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Justified" vTextAlign="Middle">
+								<paragraph lineSpacing="Fixed" lineSpacingSize="9.0"/>
+								<expression><![CDATA["1st Floor, Panjim Convention Center, Vistar Estates, Mala, Rua de Ourém, Neugi Nagar, Panaji, Goa 403001"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+								<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+							</element>
+							<element kind="staticText" uuid="be7d0f81-f541-4289-b8f4-09a2f8654395" x="0" y="68" width="140" height="12" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Date Reported]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="18124ead-4181-419c-af55-5c0a590f8f8b" x="148" y="52" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["-"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="textField" uuid="27388a18-1006-4eb3-a207-7a8eb5dc1392" x="148" y="68" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["11/02/2021"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="staticText" uuid="3dce4659-15f1-49ec-bf2f-93daa3e5621a" x="0" y="52" width="140" height="12" forecolor="#000000" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Residence Code]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+							</element>
+						</element>
+					</element>
+					<element kind="frame" uuid="cdac5bb7-6fa8-41c6-8405-a33e0a9df040" stretchType="NoStretch" x="0" y="80" width="531" height="96" removeLineWhenBlank="true">
+						<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.element.name" value="add rpw2"/>
+						<element kind="frame" uuid="f1ca0b5e-f536-45a3-a13e-cb90a15f849d" positionType="Float" x="0" y="16" width="250" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.layout"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<element kind="textField" uuid="ab371003-3cb3-462b-8667-592d42e6d361" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+								<expression><![CDATA["Permanent Address"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="c7fec560-5d5b-4d5e-90c1-81b84f91f493" positionType="Float" stretchType="ElementGroupHeight" x="0" y="16" width="250" height="24" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Justified" vTextAlign="Middle">
+								<paragraph lineSpacing="Fixed" lineSpacingSize="9.0"/>
+								<expression><![CDATA["1st Floor, Panjim Convention Center, Vistar Estates, Mala, Rua de Ourém, Neugi Nagar, Panaji, Goa 403001"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+								<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+							</element>
+							<element kind="staticText" uuid="78fc7479-f1db-4206-bae9-ae0af4e017c1" x="0" y="68" width="140" height="12" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Date Reported]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="8fb4b2ff-2918-4b10-8b75-afb296355ccf" x="148" y="52" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["-"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="textField" uuid="2de13f3c-e773-4e58-bbcd-137f5106a830" x="148" y="68" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["11/02/2021"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="staticText" uuid="21748fc3-8aa1-406b-8a7e-5fa526aa8204" x="0" y="52" width="140" height="12" forecolor="#000000" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Residence Code]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="cfc0332c-c53c-4dcd-aff9-218b5d857eea" x="261" y="16" width="8" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<element kind="line" uuid="6adb7273-29f8-4b4e-a096-4fe53edb4c35" mode="Opaque" x="1" y="0" width="1" height="80" forecolor="#D9D9D9" backcolor="#D9D9D9">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<box leftPadding="3" rightPadding="3"/>
+						</element>
+						<element kind="frame" uuid="00993c0b-b4b9-4e2d-965f-43680a17309b" positionType="Float" x="281" y="16" width="250" height="80" removeLineWhenBlank="true">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.layout"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<element kind="textField" uuid="dd920ae9-39ff-4eab-9937-5226623b5a9a" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+								<expression><![CDATA["Permanent Address"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="5096774c-7fc3-4035-ae19-2508fc64244c" positionType="Float" stretchType="ElementGroupHeight" x="0" y="16" width="250" height="24" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Justified" vTextAlign="Middle">
+								<paragraph lineSpacing="Fixed" lineSpacingSize="9.0"/>
+								<expression><![CDATA["1st Floor, Panjim Convention Center, Vistar Estates, Mala, Rua de Ourém, Neugi Nagar, Panaji, Goa 403001"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+								<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+							</element>
+							<element kind="staticText" uuid="19d945b3-84ae-4958-abdc-e94f392a1f3f" x="0" y="68" width="140" height="12" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Date Reported]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</element>
+							<element kind="textField" uuid="d73728a7-c35a-4420-b2a6-0bf31d8634b3" x="148" y="52" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["-"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="textField" uuid="97478f4a-b437-42c5-bd63-496c257a3a3f" x="148" y="68" width="98" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["11/02/2021"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box rightPadding="0"/>
+							</element>
+							<element kind="staticText" uuid="7da3c780-6477-4812-b43b-51015ca46fb8" x="0" y="52" width="140" height="12" forecolor="#000000" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Residence Code]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+							</element>
+						</element>
+					</element>
+				</element>
+				<element kind="frame" uuid="cff4743c-ff8b-4e6b-9b9a-ce9e956b995b" x="0" y="20" width="531" height="44" removeLineWhenBlank="true">
+					<printWhenExpression><![CDATA[new Boolean(false)]]></printWhenExpression>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.element.name" value="empt addrss"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="rectangle" uuid="670a7a4f-fa2f-4648-aca8-3dcbc6159d85" mode="Opaque" x="0" y="0" width="531" height="44" backcolor="#F2F2F2" radius="3">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<pen lineWidth="0.75" lineColor="#F2F2F2"/>
+					</element>
+					<element kind="staticText" uuid="5f9675b0-4ea9-4b2c-8e51-ea8a4f03463c" x="8" y="8" width="311" height="28" forecolor="#595959" fontName="Intro" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+						<paragraph lineSpacing="Fixed" lineSpacingSize="10.5"/>
+						<text><![CDATA[This section does not contain any data at this moment.                                              It's possible that no relevant records exist or the data is temporarily unavailable.]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+					<box padding="0"/>
+				</element>
+			</element>
+			<element kind="frame" uuid="bef67f07-cf75-4761-a1c0-407e4dd2b915" x="0" y="243" width="531" height="32">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="line" uuid="514cce13-c2ad-4820-9788-9499d7e2ee2c" mode="Opaque" x="0" y="0" width="531" height="1" backcolor="#D9D9D9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<pen lineColor="#D9D9D9"/>
+				</element>
+				<box topPadding="16" bottomPadding="16"/>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+</jasperReport>
