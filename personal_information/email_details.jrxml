@@ -1,0 +1,195 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="email_details" language="java" columnCount="1" pageWidth="531" pageHeight="802" orientation="Landscape" columnWidth="531" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="128b104b-dbfe-4847-925e-dcc0d4742739">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="126" splitType="Stretch">
+			<element kind="frame" uuid="254de4e8-5051-4c06-b048-5579a16255ff" x="0" y="0" width="140" height="12">
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<element kind="frame" uuid="622d0eb5-c41e-4c7c-8208-65752e18395d" x="0" y="0" width="12" height="12">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="image" uuid="6802442d-dfb2-41e8-bda1-b2955a078d51" x="1" y="2" width="10" height="10" hImageAlign="Center" vImageAlign="Middle">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/email-icon-blue.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+				</element>
+				<element kind="staticText" uuid="219e0d02-f0ca-4967-bc52-ef112880c661" x="16" y="3" width="110" height="8" forecolor="#004364" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+					<text><![CDATA[EMAIL DETAILS]]></text>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</element>
+			</element>
+			<element kind="frame" uuid="31880de1-87d3-4baa-9782-af3d781d061e" stretchType="NoStretch" x="0" y="20" width="531" height="29" removeLineWhenBlank="true">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.element.name" value="add row1"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<element kind="frame" uuid="f58e4bab-5dcc-42d1-a2cb-5677be781ac1" positionType="Float" x="0" y="0" width="249" height="29" removeLineWhenBlank="true">
+					<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
+					<property name="com.jaspersoft.studio.layout"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="staticText" uuid="cb1b5754-e457-4204-b5fd-e03c0d4f1fe0" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="249" height="12" fontName="Intro - semi bold" fontSize="8.0" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+						<text><![CDATA[Email ID 1]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+					<element kind="frame" uuid="09019e56-58e5-4582-822a-e5c547c567da" x="0" y="17" width="249" height="12">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="textField" uuid="8ae1a302-560b-45f5-b5b0-426e69b5c52e" x="0" y="0" width="249" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+							<expression><![CDATA["rahul@gmail.com"]]></expression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+						</element>
+					</element>
+				</element>
+				<element kind="frame" uuid="4341af8f-6606-4c5c-971e-88c370c80321" x="261" y="0" width="8" height="29" removeLineWhenBlank="true">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="line" uuid="60273e0f-8e67-45a4-851b-0ea588b4b7b2" mode="Opaque" x="1" y="0" width="1" height="29" forecolor="#D9D9D9" backcolor="#D9D9D9">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box leftPadding="3" rightPadding="3"/>
+				</element>
+				<element kind="frame" uuid="552d7d30-d344-43e2-bff9-cc24c1478b80" positionType="Float" x="281" y="0" width="249" height="29" removeLineWhenBlank="true">
+					<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
+					<property name="com.jaspersoft.studio.layout"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="staticText" uuid="ee683292-555b-476c-9e5f-f43efcb4a18e" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="249" height="12" fontName="Intro - semi bold" fontSize="8.0" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+						<text><![CDATA[Email ID 2]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+					<element kind="frame" uuid="c6ed1fef-f086-4978-8be0-edbf2ed3251e" x="0" y="17" width="249" height="12">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="textField" uuid="9de4e652-9c1f-4550-88bd-c1a10ce98cc7" x="0" y="0" width="249" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+							<expression><![CDATA["rahul@gmail.com"]]></expression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+						</element>
+					</element>
+				</element>
+			</element>
+			<element kind="frame" uuid="029d4ecd-5b04-46f8-bf2b-90f5192098e3" stretchType="NoStretch" x="0" y="49" width="531" height="45" removeLineWhenBlank="true">
+				<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.element.name" value="add row1"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="frame" uuid="434aa4aa-f5e0-4c4e-b744-fcb4ef2a433d" positionType="Float" x="0" y="16" width="249" height="29" removeLineWhenBlank="true">
+					<property name="com.jaspersoft.studio.layout"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="staticText" uuid="313dd0a5-6854-4c5a-b657-d49482e58eef" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="249" height="12" fontName="Intro - semi bold" fontSize="8.0" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+						<text><![CDATA[Email ID 3]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+					<element kind="frame" uuid="9ef9a78e-90e9-4063-bc86-4cc246b312f8" x="0" y="17" width="249" height="12">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="textField" uuid="11e96a9f-a798-4dba-a90d-817b1f79f62c" x="0" y="0" width="249" height="12" forecolor="#333333" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+							<expression><![CDATA["rahul@gmail.com"]]></expression>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<box topPadding="0" bottomPadding="0" rightPadding="4"/>
+						</element>
+					</element>
+				</element>
+			</element>
+			<element kind="frame" uuid="c6860d7a-787e-4465-af99-1e626d6fe623" x="0" y="94" width="531" height="32">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="line" uuid="fb9953ad-fb04-4004-8561-a8eaf5498964" mode="Opaque" x="0" y="0" width="531" height="1" backcolor="#D9D9D9">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<pen lineColor="#D9D9D9"/>
+				</element>
+				<box topPadding="16" bottomPadding="16"/>
+			</element>
+			<element kind="frame" uuid="8556c508-0a78-40ea-be10-69323e8f957d" x="0" y="20" width="531" height="44" removeLineWhenBlank="true">
+				<printWhenExpression><![CDATA[new Boolean(false)]]></printWhenExpression>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.element.name" value="empt cnt"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="rectangle" uuid="c57da204-d60e-4de0-bf64-045d9674cd3f" mode="Opaque" x="0" y="0" width="531" height="44" backcolor="#F2F2F2" radius="3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<pen lineWidth="0.75" lineColor="#F2F2F2"/>
+				</element>
+				<element kind="staticText" uuid="96257bbd-278b-4e93-9ae4-4ece4c7813ed" x="8" y="8" width="311" height="28" forecolor="#595959" fontName="Intro" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+					<paragraph lineSpacing="Fixed" lineSpacingSize="10.5"/>
+					<text><![CDATA[This section does not contain any data at this moment.                                              It's possible that no relevant records exist or the data is temporarily unavailable.]]></text>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</element>
+				<box padding="0"/>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

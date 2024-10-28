@@ -29,8 +29,8 @@
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						</element>
 					</element>
-					<element kind="textField" uuid="25a57212-3ee1-41b9-929c-d6985ba90eb9" x="16" y="3" width="110" height="8" forecolor="#004364" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
-						<expression><![CDATA["ADDRESS DETAILS"]]></expression>
+					<element kind="staticText" uuid="eefaa905-e2a6-4385-b3eb-4181a66cd58a" x="16" y="3" width="110" height="8" forecolor="#004364" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+						<text><![CDATA[ADDRESS DETAILS]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -38,13 +38,13 @@
 					</element>
 				</element>
 				<element kind="frame" uuid="a6da25a9-05b0-4617-827d-3493fbb63951" x="0" y="65" width="531" height="176" removeLineWhenBlank="true">
-					<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.element.name" value="add main"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<element kind="frame" uuid="8b88ca29-3ec0-43ed-b83d-2bef2d2356e5" stretchType="NoStretch" x="0" y="0" width="531" height="80">
+						<printWhenExpression><![CDATA[new Boolean(true)]]></printWhenExpression>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>

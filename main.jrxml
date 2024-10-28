@@ -45,18 +45,18 @@
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						</element>
-						<element kind="textField" uuid="722707e7-c8af-46dd-9e32-d5e7096c9d0e" x="56" y="0" width="39" height="7" forecolor="#565656" fontName="Intro" fontSize="6.0" textAdjust="ScaleFont" hTextAlign="Right" vTextAlign="Middle">
+						<element kind="textField" uuid="722707e7-c8af-46dd-9e32-d5e7096c9d0e" x="56" y="0" width="39" height="7" forecolor="#595959" fontName="Intro" fontSize="6.0" textAdjust="ScaleFont" hTextAlign="Right" vTextAlign="Middle">
 							<expression><![CDATA["3,865,813,852"]]></expression>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						</element>
 					</element>
-					<element kind="frame" uuid="314af3c4-beb0-4f7e-9ec6-ecb06d737aeb" x="20" y="11" width="74" height="7">
-						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="frame" uuid="314af3c4-beb0-4f7e-9ec6-ecb06d737aeb" x="19" y="11" width="76" height="7">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<element kind="staticText" uuid="205d1fa4-51dd-4ffd-960b-078925308007" x="0" y="0" width="41" height="7" fontName="Intro - semi bold" fontSize="6.0" bold="true" hTextAlign="Right" vTextAlign="Middle">
 							<text><![CDATA[Report Date :]]></text>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -64,7 +64,7 @@
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						</element>
-						<element kind="textField" uuid="c8e73e7f-f291-4c8f-beae-2a240235d8d4" x="43" y="0" width="31" height="7" forecolor="#565656" fontName="Intro" fontSize="6.0" textAdjust="ScaleFont" hTextAlign="Right" vTextAlign="Middle">
+						<element kind="textField" uuid="c8e73e7f-f291-4c8f-beae-2a240235d8d4" x="43" y="0" width="33" height="7" forecolor="#595959" fontName="Intro" fontSize="6.0" hTextAlign="Right" vTextAlign="Middle">
 							<expression><![CDATA[new java.text.SimpleDateFormat("dd-MM-yyyy").format(new java.util.Date())
 ]]></expression>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -100,10 +100,22 @@
 			</element>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</band>
-		<band height="254" splitType="Stretch">
-			<element kind="subreport" uuid="1ae8eb7c-0bea-4969-84a7-6d85089b7270" x="0" y="0" width="595" height="200">
+		<band height="100" splitType="Stretch">
+			<element kind="subreport" uuid="1ae8eb7c-0bea-4969-84a7-6d85089b7270" x="0" y="0" width="595" height="100" runToBottom="true" usingCache="true">
 				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
 				<expression><![CDATA["/personal_information/personal_information.jasper"]]></expression>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+		<band height="100" splitType="Stretch">
+			<element kind="subreport" uuid="365e3c3e-dad9-4903-888f-bb8d8388602e" positionType="Float" x="0" y="0" width="595" height="100">
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<expression><![CDATA["/account_information/account_information.jasper"]]></expression>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
 			</element>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</band>

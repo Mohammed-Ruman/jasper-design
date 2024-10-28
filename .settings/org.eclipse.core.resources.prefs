@@ -1,6 +1,9 @@
 eclipse.preferences.version=1
+encoding//account_information/account.jrxml=UTF-8
+encoding//account_information/account_information.jrxml=UTF-8
 encoding//personal_information/address_details.jrxml=UTF-8
 encoding//personal_information/contact_details.jrxml=UTF-8
+encoding//personal_information/email_details.jrxml=UTF-8
 encoding//personal_information/personal_information.jrxml=UTF-8
 encoding//summary/summary.jrxml=UTF-8
 encoding//table_of_content/index.jrxml=UTF-8

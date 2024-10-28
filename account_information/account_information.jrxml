@@ -1,0 +1,223 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="account_information" language="java" columnCount="1" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="209c2f35-f62f-4bed-a28a-1195b4e4afc5">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<columnHeader height="26" splitType="Stretch">
+		<element kind="frame" uuid="e9969c6a-9e35-4b79-804f-1ac273efe84b" mode="Transparent" x="0" y="0" width="595" height="26" forecolor="#FFFFFF" backcolor="#FFFFFF">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<element kind="rectangle" uuid="41178f96-0458-487f-a2c2-22f622163ec0" mode="Opaque" x="301" y="24" width="142" height="2" backcolor="#00A6CA">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<pen lineColor="#00A6CA"/>
+			</element>
+			<element kind="frame" uuid="2f7f1055-6d87-4c76-8fe5-90a284ff4ade" x="0" y="0" width="142" height="26">
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<element kind="frame" uuid="8b782c85-ab30-4698-af6c-56615a8e927b" x="27" y="0" width="14" height="14">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="image" uuid="17d6388c-6fc6-4809-bf44-629e6fc64437" x="0" y="0" width="9" height="9" hImageAlign="Center" vImageAlign="Middle">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/cibil-summary-icon.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<box padding="2"/>
+				</element>
+				<element kind="frame" uuid="5fedc781-4407-4bb4-9c09-2cda0659c52b" x="45" y="0" width="62" height="14">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="staticText" uuid="3443447d-e8bb-4eb1-bcce-90e455e1bde7" x="0" y="0" width="62" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<text><![CDATA[CIBIL Summary]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+					</element>
+					<box padding="0"/>
+				</element>
+				<box topPadding="6" leftPadding="4" bottomPadding="6" rightPadding="4">
+					<pen lineWidth="1.5" lineColor="#00A6CA"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="rectangle" uuid="fab60bf5-4118-402a-90a4-33217667a7d3" mode="Opaque" x="444" y="25" width="151" height="1" backcolor="#D9D9D9">
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<pen lineColor="#D9D9D9"/>
+			</element>
+			<element kind="frame" uuid="91926f50-39e3-4569-9ce2-8ad07ec60569" x="301" y="0" width="142" height="26">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<element kind="frame" uuid="9104cf53-67b0-4004-b085-57379fdb497b" x="18" y="0" width="14" height="14">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<element kind="image" uuid="5f5fcc92-902c-4a13-9deb-15dcd30a484c" x="1" y="0" width="9" height="9" hImageAlign="Center" vImageAlign="Middle">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/account-info-icon-active.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</element>
+					<box padding="2"/>
+				</element>
+				<element kind="frame" uuid="33bee58d-692f-44bf-b9f3-a7b10d861cb5" x="36" y="0" width="82" height="14">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<element kind="staticText" uuid="347cf6d1-e003-410e-a792-26bbe64bc769" x="0" y="0" width="82" height="14" forecolor="#262626" fontName="Intro" fontSize="8.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+						<text><![CDATA[Account Information]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+					</element>
+					<box padding="0"/>
+				</element>
+				<box topPadding="6" leftPadding="4" bottomPadding="6" rightPadding="4">
+					<pen lineWidth="1.5" lineColor="#00A6CA"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="frame" uuid="70997cd1-54d0-4541-a99d-46d546da2eca" x="452" y="0" width="142" height="26">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="frame" uuid="25fd46b9-a00a-4e67-ba95-cba5e3c2c45d" x="20" y="0" width="14" height="14">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="image" uuid="4f7249aa-9319-4574-99d9-4dadf897e0cc" x="1" y="0" width="9" height="9" hImageAlign="Center" vImageAlign="Middle">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/enquiry-info-icon.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</element>
+					<box padding="2"/>
+				</element>
+				<element kind="frame" uuid="0df8d02d-cf12-4097-aee6-0d4275c52ac9" x="36" y="0" width="78" height="14">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="staticText" uuid="10bbab46-c1d9-4233-987a-eb1955e7bbaa" x="0" y="0" width="78" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<text><![CDATA[Enquiry Information]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+					</element>
+					<box padding="0"/>
+				</element>
+				<box topPadding="6" leftPadding="4" bottomPadding="6" rightPadding="4">
+					<pen lineWidth="1.5" lineColor="#00A6CA"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="rectangle" uuid="42eb6bfb-9d05-4e61-8ee1-9782a60dc0bf" mode="Opaque" x="0" y="25" width="300" height="1" backcolor="#D9D9D9">
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<pen lineColor="#D9D9D9"/>
+			</element>
+			<element kind="frame" uuid="91e53b2f-926b-495d-989a-d5265c9ed71c" x="150" y="0" width="142" height="26">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<element kind="frame" uuid="9d981d3b-6cfb-413d-86c3-fe6c0cba6975" x="17" y="0" width="14" height="14">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="image" uuid="63a38e7d-1648-46e4-948d-1f1349d77ffd" x="1" y="-1" width="9" height="9" hImageAlign="Center" vImageAlign="Middle">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/personal-info-icon.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</element>
+					<box padding="2"/>
+				</element>
+				<element kind="frame" uuid="883a0cfa-076c-4bf9-8dfd-fb4234a98a10" x="35" y="0" width="82" height="14">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<element kind="staticText" uuid="45eadf4c-541e-4493-939e-e0058c32ea32" x="0" y="0" width="82" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<text><![CDATA[Personal Information]]></text>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+					</element>
+					<box padding="0"/>
+				</element>
+				<box topPadding="6" leftPadding="4" bottomPadding="6" rightPadding="4">
+					<pen lineWidth="1.5" lineColor="#00A6CA"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<box>
+				<pen lineWidth="0.0" lineColor="#FFFFFF"/>
+				<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</columnHeader>
+	<detail>
+		<band height="724" splitType="Stretch">
+			<element kind="subreport" uuid="5db75409-af11-4b4b-b738-8c7ae84996ef" x="0" y="0" width="595" height="50">
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<expression><![CDATA["account.jasper"]]></expression>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+</jasperReport>
