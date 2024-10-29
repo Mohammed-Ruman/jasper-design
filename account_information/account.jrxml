@@ -772,6 +772,68 @@
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="staticText" uuid="3130a7dc-4a7a-4a11-b805-f2eba5bc20a6" x="0" y="0" width="161" height="12" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Legend]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="frame" uuid="49c6e48a-e5c7-4ddd-8795-c7da7887edbf" x="0" y="16" width="523" height="28">
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<element kind="staticText" uuid="258d2d71-9c93-468c-b427-75e614347d8f" x="0" y="0" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[###: Number of days past due]]></text>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								</element>
+								<element kind="staticText" uuid="1851fba4-9ba8-4651-b3ad-f8499c2d1625" x="132" y="0" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[STD: Standard]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								</element>
+								<element kind="staticText" uuid="e175a1fa-5051-43da-8ac0-9cb80f1987ef" x="264" y="0" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[SUB: Substandard]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+								<element kind="staticText" uuid="66c22c43-cc7b-4ce0-9598-73054fabbec6" x="396" y="0" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[SMA: Special mention account]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+								<element kind="staticText" uuid="82d49d0e-9ff9-44f6-bdd4-4c4f298b399e" x="0" y="16" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[DBT: Doubtful]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+								<element kind="staticText" uuid="76e842a7-c49e-4166-b0ac-d87ba888bcc4" x="132" y="16" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[LSS: Loss]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+								<element kind="staticText" uuid="2fca1570-0ae3-4874-81ce-61a5dc11b297" x="264" y="16" width="124" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+									<text><![CDATA[XXX: Not reported]]></text>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+							</element>
 						</element>
 					</element>
 					<box bottomPadding="12">
