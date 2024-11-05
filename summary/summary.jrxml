@@ -9,6 +9,7 @@
 	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="net.sf.jasperreports.print.create.bookmarks" value="true"/>
 	<query language="sql"><![CDATA[]]></query>
 	<columnHeader height="26" splitType="Stretch">
 		<element kind="frame" uuid="6219fcde-fb09-4e83-bab5-927b631caeaf" mode="Transparent" x="0" y="0" width="595" height="26" forecolor="#FFFFFF" backcolor="#FFFFFF">
@@ -32,7 +33,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<element kind="image" uuid="04ea42a0-3598-463e-82b2-3846155ee82e" x="0" y="0" width="9" height="9" hImageAlign="Center" vImageAlign="Middle">
+					<element kind="image" uuid="04ea42a0-3598-463e-82b2-3846155ee82e" x="0" y="0" width="9" height="9" linkType="" linkTarget="" hImageAlign="Center" vImageAlign="Middle">
 						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/cibil-summary-icon-active.svg"]]></expression>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -46,8 +47,9 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<element kind="staticText" uuid="834a4c03-f1ed-4b8a-8f17-de6e2ce314ac" x="0" y="0" width="62" height="14" forecolor="#262626" fontName="Intro" fontSize="8.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
-						<text><![CDATA[CIBIL Summary]]></text>
+					<element kind="textField" uuid="39e078b0-0eec-4ffc-a69a-c0a012a4833b" x="0" y="0" width="62" height="14" forecolor="#262626" fontName="Intro" fontSize="8.0" linkType="None" linkTarget="Self" bookmarkLevel="1" bold="true" hTextAlign="Left" vTextAlign="Middle">
+						<expression><![CDATA["CIBIL Summary"]]></expression>
+						<anchorNameExpression><![CDATA["SummaryAnchor"]]></anchorNameExpression>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -95,8 +97,10 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<element kind="staticText" uuid="17d44139-f013-4dc9-abd6-56202c3e0368" x="0" y="0" width="82" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
-						<text><![CDATA[Personal Information]]></text>
+					<element kind="textField" uuid="2261e269-b84f-4476-9df8-15a93648fb2f" x="0" y="0" width="82" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" linkType="LocalAnchor" linkTarget="Self" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<expression><![CDATA["Personal Information"]]></expression>
+						<hyperlinkAnchorExpression><![CDATA["PersonalAnchor"]]></hyperlinkAnchorExpression>
+						<hyperlinkTooltipExpression><![CDATA["Go To Personal Information"]]></hyperlinkTooltipExpression>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -137,8 +141,10 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<element kind="staticText" uuid="f6540a3b-00fa-4007-84a6-5a8d4a99ca8f" x="0" y="0" width="81" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
-						<text><![CDATA[Account Information]]></text>
+					<element kind="textField" uuid="e3796a4f-a851-45d0-8967-017232511436" x="0" y="0" width="81" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" linkType="LocalAnchor" linkTarget="Self" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<expression><![CDATA["Account Information"]]></expression>
+						<hyperlinkAnchorExpression><![CDATA["AccountAnchor"]]></hyperlinkAnchorExpression>
+						<hyperlinkTooltipExpression><![CDATA["Go to Account Information"]]></hyperlinkTooltipExpression>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -179,8 +185,10 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<element kind="staticText" uuid="9d492c2f-5db4-4ba3-baca-b5eef1289aa3" x="0" y="0" width="78" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
-						<text><![CDATA[Enquiry Information]]></text>
+					<element kind="textField" uuid="bed10921-7214-4001-8e1b-0a6baec7c043" x="0" y="0" width="78" height="14" forecolor="#5C5C5C" fontName="Intro" fontSize="8.0" linkType="LocalAnchor" linkTarget="Self" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<expression><![CDATA["Enquiry Information"]]></expression>
+						<hyperlinkAnchorExpression><![CDATA["EnquiryAnchor"]]></hyperlinkAnchorExpression>
+						<hyperlinkTooltipExpression><![CDATA["Go to Enquiry Information"]]></hyperlinkTooltipExpression>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -814,14 +822,12 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<element kind="frame" uuid="1bb4bcf2-d570-4f44-929c-b616573182e3" x="8" y="0" width="106" height="94">
+						<element kind="frame" uuid="1bb4bcf2-d570-4f44-929c-b616573182e3" key="" x="8" y="0" width="106" height="94">
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
-							<element kind="staticText" uuid="e1dc07e9-09af-49ca-b7da-0b3db17c08eb" x="1" y="32" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
-								<text><![CDATA[Donut Graph]]></text>
-							</element>
+							<property name="com.jaspersoft.studio.element.name" value="donut frame"/>
 						</element>
 						<element kind="frame" uuid="c1a96517-addc-4259-a605-0f2e5cc94c04" x="147" y="6" width="153" height="82">
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>

@@ -4,7 +4,7 @@
 	<query language="sql"><![CDATA[]]></query>
 	<background splitType="Stretch"/>
 	<detail>
-		<band height="276" splitType="Stretch">
+		<band height="346" splitType="Stretch">
 			<element kind="frame" uuid="8ac3ae6a-2846-474e-9e93-2a1de8d4782b" x="0" y="0" width="531" height="242" removeLineWhenBlank="true">
 				<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -104,6 +104,19 @@
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
 							</element>
+							<element kind="frame" uuid="9c2ecc9c-69cb-445f-8404-dbc95609a1fa" x="78" y="0" width="12" height="12" removeLineWhenBlank="true">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<element kind="image" uuid="92a5dce3-83bc-437f-99aa-1dec8ec3ad30" x="1" y="2" width="10" height="8">
+									<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/danger-icon.svg"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+							</element>
 						</element>
 						<element kind="frame" uuid="90cde11d-68e6-4379-9c8c-87f444759c61" x="261" y="0" width="8" height="80" removeLineWhenBlank="true">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -123,7 +136,7 @@
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<element kind="textField" uuid="4625bf6b-c097-49d4-9a7d-3cfeed986dd7" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
-								<expression><![CDATA["Permanent Address"]]></expression>
+								<expression><![CDATA["Office Address"]]></expression>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -170,6 +183,19 @@
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
 							</element>
+							<element kind="frame" uuid="7c98342a-fd11-4671-ab5a-5ef043b0253c" x="78" y="0" width="12" height="12" removeLineWhenBlank="true">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<element kind="image" uuid="7f5f0bc0-2921-4ef7-8c6e-612f35fbeb9b" x="1" y="2" width="10" height="8">
+									<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/danger-icon.svg"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+							</element>
 						</element>
 					</element>
 					<element kind="frame" uuid="cdac5bb7-6fa8-41c6-8405-a33e0a9df040" stretchType="NoStretch" x="0" y="80" width="531" height="96" removeLineWhenBlank="true">
@@ -186,7 +212,7 @@
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<element kind="textField" uuid="ab371003-3cb3-462b-8667-592d42e6d361" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
-								<expression><![CDATA["Permanent Address"]]></expression>
+								<expression><![CDATA["Residence Address"]]></expression>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -233,6 +259,19 @@
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
 							</element>
+							<element kind="frame" uuid="2d956fea-8d47-4295-828a-7f4a21853f5b" x="78" y="0" width="12" height="12" removeLineWhenBlank="true">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<element kind="image" uuid="5238e866-3aef-4ad0-9152-1a31adb1f02e" x="1" y="2" width="10" height="8">
+									<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/danger-icon.svg"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+							</element>
 						</element>
 						<element kind="frame" uuid="cfc0332c-c53c-4dcd-aff9-218b5d857eea" x="261" y="16" width="8" height="80" removeLineWhenBlank="true">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -250,7 +289,7 @@
 							<property name="com.jaspersoft.studio.layout"/>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<element kind="textField" uuid="dd920ae9-39ff-4eab-9937-5226623b5a9a" positionType="Float" stretchType="ElementGroupHeight" x="0" y="0" width="250" height="12" fontName="Intro - semi bold" fontSize="8.0" blankWhenNull="false" bold="true" hTextAlign="Justified" vTextAlign="Middle">
-								<expression><![CDATA["Permanent Address"]]></expression>
+								<expression><![CDATA["Not Categorised"]]></expression>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -297,6 +336,19 @@
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<box topPadding="0" bottomPadding="0" rightPadding="4"/>
 							</element>
+							<element kind="frame" uuid="9e0f90fc-3ac6-4d4b-ab3e-476d11a104b7" x="78" y="0" width="12" height="12" removeLineWhenBlank="true">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<element kind="image" uuid="c3371083-4c23-4110-939a-135718acbc8e" x="1" y="2" width="10" height="8">
+									<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/danger-icon.svg"]]></expression>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								</element>
+							</element>
 						</element>
 					</element>
 				</element>
@@ -324,7 +376,7 @@
 					<box padding="0"/>
 				</element>
 			</element>
-			<element kind="frame" uuid="bef67f07-cf75-4761-a1c0-407e4dd2b915" x="0" y="243" width="531" height="32">
+			<element kind="frame" uuid="bef67f07-cf75-4761-a1c0-407e4dd2b915" x="0" y="314" width="531" height="32">
 				<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -337,6 +389,93 @@
 					<pen lineColor="#D9D9D9"/>
 				</element>
 				<box topPadding="16" bottomPadding="16"/>
+			</element>
+			<element kind="frame" uuid="932d9d4d-4598-499f-8b39-0df872e6c9fc" x="0" y="243" width="531" height="68" removeLineWhenBlank="true">
+				<printWhenExpression><![CDATA[new Boolean(true)
+]]></printWhenExpression>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="rectangle" uuid="621d23d6-d332-412a-8803-4dd234a99536" mode="Opaque" x="0" y="12" width="531" height="58" backcolor="#FFFBE4" radius="3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
+				</element>
+				<element kind="frame" uuid="ac077186-c5d3-41b3-a363-5aeea8330d52" x="8" y="20" width="12" height="12" removeLineWhenBlank="true">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="image" uuid="6e349e0e-faf8-4d44-b4c6-cf5da0939a9d" x="1" y="2" width="10" height="8">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/danger-icon.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+				</element>
+				<element kind="frame" uuid="9f1791e9-b838-4990-9c0e-2ef9b5c9bc0b" x="28" y="20" width="495" height="42" removeLineWhenBlank="true">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<element kind="staticText" uuid="b3d1836a-6a3b-4271-8ebb-c8895ec3b48f" x="0" y="0" width="140" height="12" fontName="Intro - semi bold" fontSize="8.0" bold="true" vTextAlign="Middle">
+						<text><![CDATA[Address under dispute]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="frame" uuid="069b5a62-02bf-4948-bf55-d69faadc58d2" x="0" y="16" width="495" height="26">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="frame" uuid="df6b0662-19d6-4584-b486-cb51c081a6ff" x="0" y="0" width="495" height="12">
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<element kind="staticText" uuid="cdbedd13-d7f5-4ca1-ab5d-ade5e5dce85d" x="0" y="0" width="108" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[CIBIL Remarks:]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="11a2f099-cf06-45ad-9c53-21499579a478" x="112" y="0" width="300" height="12" forecolor="#262626" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["Information never belonged to me"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+						<element kind="frame" uuid="e3e16cdf-2a73-4d3a-be42-4ab83e5a675b" x="0" y="14" width="495" height="12">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<element kind="staticText" uuid="98e895d3-79b2-4036-b4ed-2a90ce327441" x="0" y="0" width="108" height="12" forecolor="#595959" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<text><![CDATA[Dispute Date:]]></text>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</element>
+							<element kind="textField" uuid="9a02017b-bb06-4f70-8512-9501338597f3" x="112" y="0" width="300" height="12" forecolor="#262626" fontName="Intro" fontSize="8.0" vTextAlign="Middle">
+								<expression><![CDATA["17/07/2022"]]></expression>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</element>
+						</element>
+					</element>
+				</element>
 			</element>
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 		</band>

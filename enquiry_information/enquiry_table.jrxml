@@ -1,0 +1,198 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="enquiry_table" language="java" columnCount="1" pageWidth="595" pageHeight="842" orientation="Landscape" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b24cc8b4-8d68-44c0-9be4-9620caf5804f">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#E6E6E6"/>
+			<bottomPen lineWidth="0.5" lineColor="#E6E6E6"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#E6E6E6"/>
+			<bottomPen lineWidth="0.5" lineColor="#E6E6E6"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.75" lineColor="#E6E6E6"/>
+			<topPen lineWidth="0.75" lineStyle="Solid" lineColor="#E6E6E6"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.75" lineStyle="Solid" lineColor="#E6E6E6"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="EnquiryDataSet" uuid="1f304e12-bbcb-403f-8736-cf1391e2cfe0">
+		<query language="sql"><![CDATA[]]></query>
+		<field name="dateOfEnquiry" class="java.lang.String"/>
+		<field name="memberName" class="java.lang.String"/>
+		<field name="enquiryPurpose" class="java.lang.String"/>
+	</dataset>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="enquiryYear" class="java.lang.String"/>
+	<field name="enquiryDetailsEmpty" class="java.lang.Boolean"/>
+	<field name="enquiryDetailsDataSource" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="96" splitType="Stretch">
+			<element kind="frame" uuid="accd47b2-ea7d-46f7-a0f9-4be2fcba110b" x="0" y="0" width="547" height="16">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<element kind="frame" uuid="e3192487-9e72-45c0-8658-215c49b8b099" x="0" y="0" width="16" height="16">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="image" uuid="90f3e7ba-a74b-4512-be03-85863cfe80b4" x="4" y="4" width="8" height="8" hImageAlign="Center" vImageAlign="Top">
+						<expression><![CDATA["/home/user/JaspersoftWorkspace/icons/downward-icon.svg"]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+				</element>
+				<element kind="textField" uuid="a3c3329b-a295-49fc-b04b-2b99b1d6a81c" x="16" y="3" width="145" height="10" forecolor="#004364" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+					<expression><![CDATA["YEAR " + $F{enquiryYear}]]></expression>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+			</element>
+			<element kind="frame" uuid="3a89bbe0-af3c-4606-b5b2-1d5cf4e3cb28" mode="Transparent" x="0" y="24" width="547" height="56" backcolor="#F7F9FA" removeLineWhenBlank="true" style="Table_TH">
+				<printWhenExpression><![CDATA[$F{enquiryDetailsEmpty}]]></printWhenExpression>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<element kind="rectangle" uuid="36455eaa-9cb5-4d00-93fc-bb5f953cbfe5" mode="Opaque" x="0" y="0" width="547" height="22" backcolor="#F7F9FA" radius="1">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<pen lineColor="#E6E6E6"/>
+				</element>
+				<element kind="frame" uuid="74ec97e8-7c98-422d-8d0e-a790e0a160ce" x="0" y="0" width="547" height="22">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="frame" uuid="0fd2fae7-ca7e-42f8-847c-403512614843" x="0" y="0" width="118" height="22">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<element kind="staticText" uuid="62bb14fa-e3dc-4801-ad9a-65a6b3f8d5e1" x="0" y="0" width="102" height="12" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+							<text><![CDATA[Date of Enquiry]]></text>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</element>
+						<box topPadding="6" leftPadding="8" bottomPadding="6" rightPadding="8"/>
+					</element>
+					<element kind="frame" uuid="c37873c7-c2f4-44ca-b849-0bd9c0f811c4" x="118" y="0" width="222" height="22">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<element kind="staticText" uuid="777f7fa6-2373-4591-8948-801a2f033bba" x="0" y="0" width="206" height="12" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+							<text><![CDATA[Member Name]]></text>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</element>
+						<box topPadding="6" leftPadding="8" bottomPadding="6" rightPadding="8"/>
+					</element>
+					<element kind="frame" uuid="157e19a0-2220-4e13-805f-1f201eced77c" x="340" y="0" width="199" height="22">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<element kind="staticText" uuid="9714488f-cec5-4e9b-9f96-2b8800cc705f" x="0" y="0" width="179" height="12" fontName="Intro" fontSize="8.0" bold="true" vTextAlign="Middle">
+							<text><![CDATA[Enquiry Purpose]]></text>
+							<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</element>
+						<box topPadding="6" leftPadding="8" bottomPadding="6" rightPadding="8"/>
+					</element>
+					<box leftPadding="4" rightPadding="4"/>
+				</element>
+				<element kind="frame" uuid="1b8862a2-bc1a-49fc-900e-9dd9e4b294e9" x="4" y="22" width="539" height="34">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="component" uuid="bfa5b5a9-9e7c-4348-9893-871f8b93dd3e" x="4" y="0" width="535" height="34">
+						<component kind="table">
+							<datasetRun uuid="f62c774f-0c8c-445e-a593-5b0d5725f021" subDataset="EnquiryDataSet">
+								<dataSourceExpression><![CDATA[$F{enquiryDetailsDataSource}]]></dataSourceExpression>
+							</datasetRun>
+							<column kind="single" uuid="2ce8598a-9071-4bc0-bcd5-fa7b64943ab0" width="118">
+								<detailCell height="34" style="Table_TD">
+									<element kind="textField" uuid="2989ef55-68fd-4d8f-a461-dcf0fa91fe44" x="0" y="0" width="114" height="28" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{dateOfEnquiry}]]></expression>
+										<box leftPadding="0"/>
+									</element>
+									<property name="com.jaspersoft.studio.unit.height" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<box topPadding="3" leftPadding="4" bottomPadding="3" rightPadding="0" style="Table_TD"/>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="5b86bf00-9813-4139-a3e1-682d40d96b93" width="222">
+								<detailCell height="34" style="Table_TD">
+									<element kind="textField" uuid="2ec2cda9-9951-4a03-917b-fc0585d28873" x="0" y="0" width="222" height="32" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{memberName}]]></expression>
+										<box leftPadding="4"/>
+									</element>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<box topPadding="1" leftPadding="0" bottomPadding="1" style="Table_TD"/>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="d904cd1d-950b-404f-9be7-1e5e139a08ee" width="191">
+								<detailCell height="34" style="Table_TD">
+									<element kind="textField" uuid="1403a18e-49b8-48c0-bc24-324c19030442" x="0" y="0" width="179" height="34" forecolor="#333333" fontName="Intro" fontSize="8.0" hTextAlign="Left" vTextAlign="Middle">
+										<expression><![CDATA[$F{enquiryPurpose}]]></expression>
+										<box leftPadding="4"/>
+									</element>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<box leftPadding="0" rightPadding="12" style="Table_TD"/>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+						</component>
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</element>
+				</element>
+				<box bottomPadding="0" style="Table_TH">
+					<pen lineWidth="0.75" lineColor="#E6E6E6"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+					<leftPen lineWidth="0.75" lineStyle="Solid" lineColor="#E6E6E6"/>
+					<bottomPen lineWidth="0.75" lineStyle="Solid" lineColor="#E6E6E6"/>
+					<rightPen lineWidth="0.75" lineStyle="Solid" lineColor="#E6E6E6"/>
+				</box>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

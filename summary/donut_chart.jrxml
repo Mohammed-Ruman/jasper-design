@@ -1,0 +1,79 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="donut_chart" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a0f11645-8441-41c2-bf0b-441e3629c873">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<dataset name="accountDataSet" uuid="23cf808b-249c-40b2-94c6-4f0363502dff">
+		<query language="sql"><![CDATA[]]></query>
+		<field name="category" class="java.lang.String"/>
+		<field name="value" class="java.lang.Integer"/>
+	</dataset>
+	<parameter name="accountDataSource" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="totalAccount" class="java.lang.Integer"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="406" splitType="Stretch">
+			<element kind="chart" chartType="pie" uuid="21df45e0-79f4-4c59-9c57-f22ded91aa5b" mode="Transparent" x="-11" y="-14" width="127" height="127" forecolor="#FFFFFF" showLegend="false" evaluationTime="Report" linkTarget="Self" renderType="svg" theme="default">
+				<dataset kind="pie" maxCount="4" resetType="Report">
+					<datasetRun uuid="082ccc0e-0b94-46e1-99ee-b3ade4899020" subDataset="accountDataSet">
+						<dataSourceExpression><![CDATA[$P{accountDataSource}]]></dataSourceExpression>
+					</datasetRun>
+					<otherSectionHyperlink linkType="None" linkTarget="Self"/>
+					<series>
+						<keyExpression><![CDATA[$F{category}]]></keyExpression>
+						<valueExpression><![CDATA[$F{value}]]></valueExpression>
+					</series>
+				</dataset>
+				<plot backcolor="#FFFFFF" backgroundAlpha="0.0" foregroundAlpha="1.0" circular="true" labelFormat="" legendLabelFormat="" showLabels="false">
+					<itemLabel/>
+					<seriesColor order="0" color="#7E79D0"/>
+					<seriesColor order="1" color="#FDE866"/>
+					<seriesColor order="2" color="#99DBEA"/>
+					<seriesColor order="3" color="#67D995"/>
+				</plot>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<box>
+					<pen lineColor="#FFFFFF"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="frame" uuid="eb04e662-254f-4b0a-b9c0-118f0101684d" x="5" y="0" width="94" height="94">
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<element kind="ellipse" uuid="109fe5e5-c16c-4ecb-8a5f-9b88aa86c0f3" x="10" y="10" width="75" height="75">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<pen lineColor="#FFFFFF"/>
+				</element>
+				<element kind="frame" uuid="f02c0eec-0483-46d7-8b13-dc39e6f5b9ad" x="24" y="31" width="46" height="33">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<element kind="staticText" uuid="ddc84785-fac0-4a48-9fa6-484f535caff1" x="0" y="0" width="46" height="20" fontName="Intro" fontSize="8.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+						<paragraph lineSpacing="Fixed" lineSpacingSize="7.5"/>
+						<text><![CDATA[Total Accounts]]></text>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</element>
+					<element kind="textField" uuid="6cf4601b-4e59-4f30-918c-0266f1f2a680" x="17" y="20" width="19" height="13" forecolor="#333333" fontName="Intro" fontSize="10.0" bold="false" hTextAlign="Left" vTextAlign="Middle">
+						<expression><![CDATA[$P{totalAccount}]]></expression>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</element>
+				</element>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

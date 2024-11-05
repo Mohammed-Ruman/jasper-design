@@ -129,21 +129,21 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
-						<element kind="textField" uuid="5cad3dcf-d892-4c0c-99b9-e38225f4efc5" x="0" y="0" width="186" height="14" fontName="Intro" textAdjust="ScaleFont" bold="true" hTextAlign="Justified" vTextAlign="Middle">
+						<element kind="textField" uuid="5cad3dcf-d892-4c0c-99b9-e38225f4efc5" x="0" y="0" width="186" height="14" fontName="Intro" bold="true" hTextAlign="Left" vTextAlign="Middle">
 							<expression><![CDATA["Your CIBIL Score as on " + new java.text.SimpleDateFormat("d'th' MMM yyyy").format(new java.util.Date())
 ]]></expression>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						</element>
-						<element kind="staticText" uuid="d5d60a13-1ca7-417e-b4ad-918701b7e415" x="0" y="18" width="186" height="20" forecolor="#333333" fontName="Intro" fontSize="6.0" hTextAlign="Left" vTextAlign="Middle">
-							<paragraph lineSpacing="Fixed" lineSpacingSize="7.5"/>
+						<element kind="staticText" uuid="d5d60a13-1ca7-417e-b4ad-918701b7e415" stretchType="NoStretch" x="0" y="18" width="186" height="20" forecolor="#333333" fontName="Intro" fontSize="5.0" hTextAlign="Left" vTextAlign="Top">
+							<paragraph lineSpacing="Fixed" lineSpacingSize="10.0"/>
 							<text><![CDATA[Your CIBIL Score is a 3 digit numeric summary of your credit history & ranges from 300 to 900.]]></text>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						</element>
-						<element kind="staticText" uuid="d273fdfd-22a7-4b42-b99f-5a8d735e9d51" x="0" y="42" width="186" height="50" forecolor="#333333" fontName="Intro" fontSize="6.0" vTextAlign="Middle">
-							<paragraph lineSpacing="Fixed" lineSpacingSize="7.5"/>
+						<element kind="staticText" uuid="d273fdfd-22a7-4b42-b99f-5a8d735e9d51" x="0" y="42" width="186" height="50" forecolor="#333333" fontName="Intro" fontSize="5.0" hTextAlign="Left" vTextAlign="Top">
+							<paragraph lineSpacing="Fixed" lineSpacingSize="10.0"/>
 							<text><![CDATA[It is calculated on the information available in the Accounts and Enquiry section of your CIBIL Report. The closer your score is to 900, the more confidence the lender will have in your ability to repay the loan. Higher your score, the better chances of your application getting approved.]]></text>
 							<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -234,8 +234,9 @@
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
-							<element kind="staticText" uuid="3c6775a5-77e1-4ee1-9590-320515ac094c" x="40" y="0" width="32" height="32" forecolor="#FFFFFF" fontName="Intro - semi bold" fontSize="20.0" bold="false" hTextAlign="Right" vTextAlign="Middle">
-								<text><![CDATA[02]]></text>
+							<element kind="textField" uuid="a6b8891f-9a36-46ef-8c10-a65d4ab59a41" x="40" y="0" width="32" height="32" forecolor="#FFFFFF" fontName="Intro - semi bold" fontSize="20.0" linkType="LocalAnchor" linkTarget="Self" bold="false" hTextAlign="Right" vTextAlign="Middle">
+								<expression><![CDATA["02"]]></expression>
+								<hyperlinkAnchorExpression><![CDATA["SummaryAnchor"]]></hyperlinkAnchorExpression>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -351,8 +352,9 @@
 							<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
-							<element kind="staticText" uuid="1097390e-4a50-4f90-8068-805b15242aee" x="40" y="0" width="32" height="32" forecolor="#FFFFFF" fontName="Intro - semi bold" fontSize="20.0" bold="false" hTextAlign="Right" vTextAlign="Middle">
-								<text><![CDATA[02]]></text>
+							<element kind="textField" uuid="4a3782a8-bc79-4d2f-8412-b4bf70af0829" x="40" y="0" width="32" height="32" forecolor="#FFFFFF" fontName="Intro - semi bold" fontSize="20.0" linkType="LocalAnchor" linkTarget="Self" bold="false" hTextAlign="Right" vTextAlign="Middle">
+								<expression><![CDATA["02"]]></expression>
+								<hyperlinkAnchorExpression><![CDATA["EnquiryAnchor"]]></hyperlinkAnchorExpression>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -369,7 +371,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</element>
 			</element>
-			<element kind="image" uuid="905eff74-dd98-4594-b82e-a557c56c4dd9" mode="Transparent" x="429" y="24" width="128" height="128" hImageAlign="Center" vImageAlign="Middle">
+			<element kind="image" uuid="905eff74-dd98-4594-b82e-a557c56c4dd9" mode="Transparent" x="429" y="24" width="128" height="128" linkType="" linkTarget="" hImageAlign="Center" vImageAlign="Middle">
 				<expression><![CDATA["tu-opq.png"]]></expression>
 				<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>

@@ -1,0 +1,43 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="bar_chart" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2e3f9205-70a7-4118-90a4-e3303b9878ea">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<dataset name="paymentDataSet" uuid="a6d466c6-651d-48ae-91e9-8c7e2b92090e">
+		<query language="sql"><![CDATA[]]></query>
+		<field name="dayRange" class="java.lang.String"/>
+		<field name="value" class="java.lang.Integer"/>
+	</dataset>
+	<parameter name="paymentDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="80" splitType="Stretch">
+			<element kind="chart" chartType="bar" uuid="e454505b-aab1-4424-864b-44824b357196" x="10" y="10" width="200" height="70" showLegend="false" evaluationTime="Report" linkType="None" linkTarget="Self" renderType="svg" theme="default" legendPosition="Right">
+				<dataset kind="category" resetType="Report">
+					<datasetRun uuid="b2fcbe8f-187e-4b6c-a42d-f6bad4bb96ae" subDataset="paymentDataSet">
+						<dataSourceExpression><![CDATA[$P{paymentDataSource}]]></dataSourceExpression>
+					</datasetRun>
+					<series>
+						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{dayRange}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{value}]]></valueExpression>
+					</series>
+				</dataset>
+				<plot backcolor="#FFFFFF" orientation="Horizontal" labelRotation="360.0" categoryAxisLabelColor="#000000" categoryAxisTickLabelColor="#333333" categoryAxisTickLabelMask="" categoryAxisVerticalTickLabels="false" categoryAxisLineColor="#F2F2F2" valueAxisLabelColor="#030000" valueAxisTickLabelColor="#FFFFFF" valueAxisTickLabelMask="" valueAxisVerticalTickLabels="false" valueAxisLineColor="#FFFFFF" showTickMarks="true" showTickLabels="true" showLabels="true" categoryAxisTickLabelRotation="360.0">
+					<categoryAxisLabelFont fontName="Intro" fontSize="6.0"/>
+					<categoryAxisTickLabelFont fontName="Intro" fontSize="6.0" bold="false"/>
+					<valueAxisLabelFont fontName="Intro" fontSize="0.0" bold="true"/>
+					<valueAxisTickLabelFont fontName="Intro - semi bold" fontSize="0.0" bold="false"/>
+					<itemLabel color="#000000" backgroundColor="#E6F6FA">
+						<font fontName="Intro" fontSize="8.0" bold="true"/>
+					</itemLabel>
+					<seriesColor order="0" color="#FDE866"/>
+					<seriesColor order="1" color="#FDE866"/>
+					<seriesColor order="2" color="#FDE866"/>
+					<seriesColor order="3" color="#FDE866"/>
+				</plot>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+		</band>
+	</detail>
+</jasperReport>
